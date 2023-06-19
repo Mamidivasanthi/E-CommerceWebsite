@@ -1,31 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2c94891909.js" crossorigin="anonymous"></script>
     <style>
       body{
-        background-color: black;
-        color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:white;
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
       }
-      h2{
-        color:brown;
+      *{
+        overflow-x: hidden;
+       
       }
+      
+      
+      
       .nav-item a{
         color:chocolate;
       }
       .active a{
     color:green;
 }
+div.col img{
+  height:20vw;
+  width:20vw;
+}
     </style>
-  </head>
-  <body>
-<section class="header_menu" >
+</head>
+<body>
+ <section class="header_menu" >
     <div class="container-fluid">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         
@@ -105,43 +113,53 @@
       </div>
     </section><br><br>
     <section class="header_category">
-      <div class="mx-auto p-2" style="width: 500px;">
-       <h2 id="center"><ins>Shop By Category</ins></h2>
+      <div>
+       <h2 id="center">Shop By Category</h2>
       </div>
     
-      <div class="d-flex flex-row mb-3">
-        <div class="p-2"> <a href="category.html"><img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80" alt="interior"></a>
+      <div class="container text-center">
+        <div class="row row-cols-3">
 
-        </div>
-       
-          <div class="p-2"> <a href="category.html"><img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"></a>
+           <div class="col"  ><a href="category.html"><img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"></a>
+            
+           
           </div>
-        <div class="p-2">  <a href="category.html"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80" alt=""></a>
-        </div>
+          <div class="col"  ><a href="category.html"><img src="https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt=""></a>
+            
+           
+            </div>
+          <div class="col"  ><a href="category.html"><img src="https://images.unsplash.com/photo-1560060141-7b9018741ced?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt=""></a>
+           
+           
+          </div>
+         
+          
+         
+      </div>
       </div>
 
     </section>
     <section class="latestproducts">
-      <div class="mx-auto p-2" style="width: 500px;">
-        <h2 id="center"><ins>Latest Products</ins></h2>
+      <div>
+        <h2 id="center">Latest Products</h2>
        </div>
        <div class="container text-center">
         <div class="row row-cols-3">
-
-           <div class="col"  style="background:linear-gradient(white,black)" ><a href="category.html"><img src="https://images.unsplash.com/photo-1644263701567-cfbff8604f11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"></a>
+    
+           <div class="col"><a href="category.html"><img src="https://images.unsplash.com/photo-1644263701567-cfbff8604f11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"></a>
             <div>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star-o" aria-hidden="true"></i>
               <i class="fa fa-star-o" aria-hidden="true"></i>
-
+    
             </div>
             <h5>TeamSpirit 🖤</h5>
             <b>₹
-400</b>
+    400</b>
           </div>
-          <div class="col" style="background: linear-gradient(white,black)"><a href="category.html"><img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=405&q=80" alt=""></a><div>
+          <div class="col" ><a href="category.html"><img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=405&q=80" alt=""></a><div>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -150,9 +168,9 @@
           </div>
           <h5>Tior&#x1F49B;</h5>
             <b>₹
-599</b>
+    599</b>
           </div>
-          <div class="col"  style="background:linear-gradient(white,black)"><a href="category.html"><img src="https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt=""></a>
+          <div class="col" ><a href="category.html"><img src="https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt=""></a>
             <div>
               <i class="fa fa-star-o" aria-hidden="true"></i>
               <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -162,9 +180,9 @@
             </div>
             <h5>Levis&#x1F90E;</h5>
             <b>₹
-3000</b>
+    3000</b>
           </div>
-          <div class="col"  style="background:linear-gradient(black,white,black)"><a href="category.html"><img src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt=""></a>
+          <div class="col" ><a href="category.html"><img src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt=""></a>
             <div>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -174,9 +192,9 @@
             </div>
             <h5>Lee Cooper&#x1F499;</h5>
             <b>₹
-1079</b>
+    1079</b>
             </div>
-          <div class="col"  style="background: linear-gradient(black,white,black)"><a href="category.html"><img src="https://images.unsplash.com/photo-1520591799316-6b30425429aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt=""></a>
+          <div class="col"   ><a href="category.html"><img src="https://images.unsplash.com/photo-1520591799316-6b30425429aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt=""></a>
             <div>
               <i class="fa fa-star-o" aria-hidden="true"></i>
               <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -186,9 +204,9 @@
             </div>
             <h5>EyeBogler&#x1F497;</h5>
             <b>₹
-799</b>
+    799</b>
           </div>
-          <div class="col" style="background:linear-gradient(black,white,black)"><a href="category.html"><img src="https://images.unsplash.com/photo-1556172732-bcded74ff3a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80" alt="">
+          <div class="col" ><a href="category.html"><img src="https://images.unsplash.com/photo-1556172732-bcded74ff3a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80" alt="">
           </a> <div>
               <i class="fa fa-star" aria-hidden="true"></i>
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -197,21 +215,23 @@
               <i class="fa fa-star-o" aria-hidden="true"></i>
             </div> <h5>NetPlay 🖤</h5>
             <b>₹
-1200</b></div>
+    1200</b></div>
         </div>
        
+              
+            </div>
       </div>
       </section>
       <section class="features">
-        <div class="mx-auto p-2" style="width: 500px;">
-         <h2 id="center"><ins>Our Features</ins></h2>
+        <div>
+         <h2 id="center">Our Features</h2>
         </div>
       
         <div class="d-flex flex-row mb-3">
           <div class="p-2 a" id="feature"> 
            
             <div>
-              <i class="fa fa-truck" aria-hidden="true" style="color:brown"></i>
+              <i class="fa fa-truck" aria-hidden="true" ></i>
               <h3>Free Shipping Method</h3>
               <p>Free shipping often helps ecommerce stores stand out from competing brands. Customers may even specifically choose to shop with retailers that offer free shipping. </p>
             </div>
@@ -221,7 +241,7 @@
          
             <div class="p-2 b" id="feature"> 
               <div>
-                <i class="fa fa-lock" aria-hidden="true" style="color:brown"></i>
+                <i class="fa fa-lock" aria-hidden="true" ></i>
                 <h3>Secure Payment System</h3>
                 <p>
                   We are all familiar with the basic online payment process, where the buyers click the ‘Buy’ button in their shopping cart, enter the required payment details, and proceed to pay.
@@ -229,7 +249,7 @@
               </div>
             </div>
           <div class="p-2 c" id="feature">
-            <div><i class="fa fa-headphones" aria-hidden="true" style="color:brown"></i>
+            <div><i class="fa fa-headphones" aria-hidden="true" ></i>
             <h3>24/7 Support</h3>
           <p>This gives you a chat window for 24/7 e-commerce customer support. Our associates are always available to answer your website visitors' questions based on the information you provide. </p></div>  
           </div>
@@ -256,8 +276,8 @@
                 <h3 style="text-align:center;">New Products</h3>
                 <ul class="links">
                   <li><a href="javascript;">Women Cloth</a></li>
-                  <li><a href="javascript;">Fashion Accessories</a></li>
-                  <li><a href="javascript;">Man Accessories</a></li>
+                  <li><a href="javascript;">Fashion </a></li>
+                  <li><a href="javascript;">Man </a></li>
                   <li><a href="javascript;">Flower Bouquets</a></li>
                 </ul>
               </div>
