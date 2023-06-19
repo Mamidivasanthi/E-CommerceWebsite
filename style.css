@@ -54,8 +54,11 @@
     
 }
  h2{
-    
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:linear-gradient(to right,indigo,red,royalblue,cornsilk);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+    font-family: cursive;
     font-weight: bold;
     font-style: normal;
     text-align: center;
@@ -65,8 +68,7 @@
 
 @media only screen and (max-width:600px) {
 
-   
-    div.col a img{
+  div.col a img{
         height: 30vh;
         width:30vw;
   }
@@ -116,12 +118,23 @@ div.col2{
     width:auto;
     height:auto;
    font-size:small;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
    
 }
 div.productdetail{
     align-items: center;  
     margin-left: auto;
     margin-right: auto;  
+}
+#feature{
+    width:auto;
+    height:auto;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 
@@ -159,7 +172,7 @@ div.productdetail{
 #feature
 {
     height:auto;
-    width:30vw;
+    width:auto;
     align-items: center;
     display: flex;
     gap:10px;
@@ -212,7 +225,7 @@ div.col2{
    
     
     display: flex;
-    gap:20%;
+    gap:5%;
     color:black;
   
 }
