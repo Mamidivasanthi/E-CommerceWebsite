@@ -66,14 +66,10 @@
 @media only screen and (max-width:600px) {
 
    
-    .col img{
-    
-       height:40vh;
-        width:40vw;
-       font-size: small;
-
-      
-     }
+    div.col a img{
+        height: 30vh;
+        width:30vw;
+  }
 
     .header_carousel{
     
