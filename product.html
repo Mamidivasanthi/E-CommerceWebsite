@@ -11,35 +11,58 @@
       body{
           background-color: white;
           color:black;
-          margin-left:10px;
+
           overflow-x: hidden;
       }
       .productdetail{
         margin-top: 100px;
-        margin-bottom: 30px;
+        
+      }
+      .product{
+        background-color: whitesmoke;
+        color: black;
+        
       }
       .productdetail img{
           float: left;
           height:30vh;
           width:20vw;
-          border:2px solid cornsilk;
-          border-radius: 10px 0 10px 0;
-          display: inline;
+          
+          
+          
           margin-right: 20px;
           margin-left: 30px;
+          text-align: justify;
+          padding-top: 20px;
          
           
       }
-    
-      .p-2 img{
-          height:30vh;
-          gap: 20px;
-  
+      .details{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+       
       }
+    
+      div.p-2 img{
+         display: flex;
+         gap:10px;
+         height:50vh;
+         width:30vw;
+         margin-left: auto;
+         margin-right: auto;
+         align-items: center;
+         border-radius: 0 15px 0 15px ;
+        }
+          
       h4{
          
           margin-left: 20px;
           color:brown;
+      }
+      @media only screen and (max-width:600px) {
+        div.p-2 img{
+          height:30vh;
+        }
       }
       .col img{
    display:grid;
@@ -55,7 +78,7 @@
   border-radius: 0 15px 0 15px ;
  
 }
-     
+
       
   </style>
 </head>
@@ -188,11 +211,11 @@
 
    
   
-        
+        <section class="product">
       <div class="productdetail"  id="a">
       <img src="https://images.unsplash.com/photo-1644263701567-cfbff8604f11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60">
       </div>
-      <h4 style="color:blue">TeamSpirit 🖤  </h4>
+      <h4 style="color:blue;padding-top: 20px;">TeamSpirit 🖤  </h4>
       <div>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -204,24 +227,26 @@
   <b>₹
 400</b>
   <div class="details">
-      <p>Every man has a unique sense of style. Teamspirit understands this, and that’s why the brand has a versatile collection of men’s T-shirts . For a modern twist to a classic style, you can choose polo T-shirts with stripes and patterned weave. Add fun to your casual wardrobe with graphic print Teamspirit Tshirts .</p>
-  <a href="cart.html"><button type="button" class="btn btn-outline-primary" >Add To Cart</button></a>
-  <br><br><br><br><br>
+      <p>Every man has a unique sense of style. Teamspirit understands this, and that’s why the brand has a versatile collection of men’s T-shirts .</p>
+  <a href="cart.html"><button type="button" class="btn btn-outline-primary" style="color: blue;">Add To Cart</button></a>
+  <br><br>
   </div>
+</section>
     <br>
     <div style="align-items: center;">
-      <h4>Related Products</h4>
+      <h2>Related Products</h2>
     </div>
-    <div class="d-flex flex-row mb-3" style="margin-top:30px;">
+    <div class="d-flex flex-row mb-3" style="margin-top:10px;">
       <div class="p-2"><img src="https://images.unsplash.com/photo-1618354691438-25bc04584c23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2slMjB0c2hpcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt=""></div>
       <div class="p-2"><img src="https://images.unsplash.com/photo-1590999659195-e64a988eaf4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJsYWNrJTIwdHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt=""></div>
       <div class="p-2"><img src="https://images.unsplash.com/photo-1503341910231-c3d098fafba1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt=""></div>
     </div>
-  <div class="productdetail" style="margin-top:20px;" id="b">
+    <section class="product">
+  <div class="productdetail" style="margin-top:40px;" id="b">
       <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=405&q=80" alt="">
   </div>
   
-  <h4 style="color:blue">Tior&#x1F49B;</h4>
+  <h4 style="color:blue;padding-top: 20px;">Tior&#x1F49B;</h4>
   <div>
       <i class="fa fa-star" aria-hidden="true"></i>
       <i class="fa fa-star" aria-hidden="true"></i>
@@ -234,25 +259,27 @@
 599</b>
   <div class="details">
   
-  <p>Every Woman has a unique sense of style. Tior understands this, and that’s why the brand has a versatile collection of  women’s T-shirts . For a modern twist to a classic style, you can choose polo T-shirts with stripes and patterned weave. Add fun to your casual wardrobe with graphic print Tior 
-      Tshirts.</p>
-  <a href="cart.html"><button type="button" class="btn btn-outline-primary">Add To Cart</button></a>
-  <br><br><br><br><br>
+  <p>Every Woman has a unique sense of style. Tior understands this, and that’s why the brand has a versatile collection of  women’s T-shirts .
+</p>
+  <a href="cart.html"><button type="button" class="btn btn-outline-primary" style="color:blue;">Add To Cart</button></a>
+  <br><br>
   </div>
+</section>
     <br>
   <div style="align-items: center;">
-      <h4>Related Products</h4>
+      <h2>Related Products</h2>
     </div>
-    <div class="d-flex flex-row mb-3" style="margin-top:30px;" >
+    <div class="d-flex flex-row mb-3" style="margin-top:10px;" >
       <div class="p-2"><img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt=""></div>
       <div class="p-2"><img src="https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt=""></div>
       <div class="p-2"><img src="https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt=""></div>
     </div>
-    <div class="productdetail" style="margin-top:20px;"  id="c">
+    <section class="product">
+    <div class="productdetail" style="margin-top:40px;"  id="c">
       <img src="https://images.unsplash.com/photo-1520591799316-6b30425429aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
   </div>
   
-  <h4 style="color:blue">Lee Cooper&#x1F499;</h4>
+  <h4 style="color:blue;padding-top: 20px;">Lee Cooper&#x1F499;</h4>
   <div>
       <i class="fa fa-star" aria-hidden="true"></i>
       <i class="fa fa-star" aria-hidden="true"></i>
@@ -265,16 +292,17 @@
 799</b>
   <div class="details">
   
-  <p>Every Woman has a unique sense of style. Lee Copper understands this, and that’s why the brand has a versatile collection of  women’s T-shirts . For a modern twist to a classic style, you can choose polo T-shirts with stripes and patterned weave. Add fun to your casual wardrobe with graphic print Lee Copper
-      Tshirts.</p>
-  <a href="cart.html"><button type="button" class="btn btn-outline-primary">Add To Cart</button></a>
-  <br><br><br><br><br>
+  <p>Every Woman has a unique sense of style. Lee Copper understands this, and that’s why the brand has a versatile collection of  women’s T-shirts .
+      </p>
+  <a href="cart.html"><button type="button" class="btn btn-outline-primary" style="color:blue;">Add To Cart</button></a>
+  <br><br>
   </div>
+</section>
     <br>
   <div style="align-items: center;">
-      <h4>Related Products</h4>
+      <h2>Related Products</h2>
     </div>
-    <div class="d-flex flex-row mb-3" style="margin-top:30px;">
+    <div class="d-flex flex-row mb-3" style="margin-top:10px;">
       <div class="p-2"><img src="https://images.unsplash.com/photo-1550604515-ca203f9e43a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt=""></div>
       <div class="p-2"><img src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt=""></div>
       <div class="p-2"><img src="https://images.unsplash.com/photo-1542716283-b7c13b8952d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60" alt=""></div>
