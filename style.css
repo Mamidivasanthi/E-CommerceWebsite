@@ -66,9 +66,10 @@
 @media only screen and (max-width:600px) {
 
    
-    div.col img{
+    .col img{
     
        height:30vh;
+        width:30vw;
        font-size: small;
 
       
