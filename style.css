@@ -1,7 +1,6 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     scroll-behavior: smooth;
-     font-family: 'Poppins', sans-serif;
+   
    
 }
 
@@ -17,7 +16,6 @@
     
     width:100vw;
    
-   
  
 }
 .header_carousel{
@@ -25,7 +23,7 @@
 }
 
 .nav-link{
-  
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 200;
     color: brown;
@@ -34,7 +32,7 @@
 
 .nav-link:hover{
     text-decoration: underline;
-  
+   text-transform: uppercase;
    text-decoration-color:green;
   
     
@@ -56,7 +54,7 @@
     
 }
  h2{
-    background:linear-gradient(blue,indigo,purple);
+    background:linear-gradient(to right,indigo,red,royalblue,cornsilk);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 30px;
@@ -70,10 +68,10 @@
 
 @media only screen and (max-width:600px) {
 
- .col img{
-     height:20vh;
-     width:20vw;
- }
+  div.col a img{
+        height: 30vh;
+        width:30vw;
+  }
 
     .header_carousel{
     
@@ -146,7 +144,7 @@ div.productdetail{
     width:100vw;
 }
 .latestproducts{
-    margin-top: 10px;
+    margin-top: 50px;
 
     width:100vw;
 }
@@ -157,12 +155,12 @@ div.productdetail{
     padding-top: 10px;
     
    height:30vh;
-   width:20vw;
+   width:30vw;
   margin-left: auto;
   margin-right:auto;
  
   align-items: center;
- 
+  border-radius: 0 15px 0 15px ;
  
 }
 .features{
@@ -217,10 +215,10 @@ div.c{
 }
 div h3{
     color:black;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 div p{
-  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 div.col2{
    
@@ -245,6 +243,10 @@ ul.links{
 }
 .links li a{
     text-decoration: none;
+}
+h2:hover{
+    text-decoration: underline;
+    color:deepskyblue;
 }
 
 
